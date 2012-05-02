@@ -5,6 +5,10 @@ mem: 128
 framework:
   type: node
 
+hooks:
+  pre-staging:
+    - git submodule update --init
+
 processes:
   web: node static.js
 
