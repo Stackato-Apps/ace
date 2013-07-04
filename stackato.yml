@@ -1,6 +1,6 @@
 name: ace
 
-mem: 128
+mem: 192
 
 framework:
   type: node
