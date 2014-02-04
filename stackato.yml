@@ -1,11 +1,7 @@
 name: ace
-
-mem: 192
-
+mem: 256
 framework:
   type: node
-
 processes:
   web: node static.js
-
 ignores: ["node_nodules"]
