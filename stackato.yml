@@ -4,4 +4,4 @@ framework:
   type: node
 processes:
   web: node static.js
-ignores: ["node_nodules"]
+ignores: [node_nodules]
