@@ -1,7 +1,4 @@
 name: ace
 mem: 256
-framework:
-  type: node
-processes:
-  web: node static.js
+buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
 ignores: [node_nodules]
