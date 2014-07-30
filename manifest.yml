@@ -1,0 +1,6 @@
+applications:
+- name: ace
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  mem: 256
+  stackato:
+    ignores: [node_nodules]

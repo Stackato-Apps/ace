@@ -1,4 +1,0 @@
-name: ace
-mem: 256
-buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
-ignores: [node_nodules]
