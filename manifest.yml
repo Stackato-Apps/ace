@@ -3,5 +3,8 @@ applications:
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
   mem: 256
   stackato:
+    hooks:
+      pre-push:
+      - git submodule update --init
     ignores:
     - node_nodules
