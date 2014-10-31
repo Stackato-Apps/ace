@@ -6,7 +6,7 @@ var http = require("http")
   , url = require("url")
   , fs = require("fs")
   , port = process.env.PORT || 8888
-  , ip = process.env.IP || "0.0.0.0";
+  , ip = process.env.VCAP_APP_HOST || "0.0.0.0";
 
 // compatibility with node 0.6
 if (!fs.exists)
