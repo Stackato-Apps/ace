@@ -28,7 +28,7 @@ Features
 Deploying to Stackato
 ---------------------
 
-    $ git clone git://github.com/Stackato-Apps/ace.git
+    $ git clone --recursive git://github.com/Stackato-Apps/ace.git
     $ cd ace
     $ stackato push -n
 
