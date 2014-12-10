@@ -1,6 +1,6 @@
 applications:
 - name: ace
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  buildpack: https://github.com/ActiveState/nodejs-buildpack
   mem: 256
   stackato:
     hooks:
