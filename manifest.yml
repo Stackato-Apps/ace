@@ -1,10 +1,4 @@
 applications:
 - name: ace
-  buildpack: https://github.com/ActiveState/nodejs-buildpack
-  mem: 128
-  stackato:
-    hooks:
-      pre-staging:
-      - git submodule update --init
-    ignores:
-    - node_nodules
+  docker_image: stackatoapps/ace:latest
+  mem: 128M
