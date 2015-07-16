@@ -1,6 +1,5 @@
 applications:
 - name: ace
-  buildpack: https://github.com/ActiveState/nodejs-buildpack
   mem: 128
   stackato:
     hooks:
