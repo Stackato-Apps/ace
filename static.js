@@ -29,6 +29,7 @@ http.createServer(function(req, res) {
             return error(res, 404, "404 Not Found\n" + filename);
 
         if (fs.statSync(filename).isDirectory()) {
+/**
             var files = fs.readdirSync(filename);
             res.writeHead(200, {"Content-Type": "text/html"});
             
@@ -47,6 +48,8 @@ http.createServer(function(req, res) {
             res._hasBody && res.write(html.join(""));
             res.end();
             return;
+**/
+            filename += "/index.html";
         }
 
         fs.readFile(filename, "binary", function(err, file) {
