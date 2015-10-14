@@ -25,11 +25,9 @@ Features
 * Live syntax checker (currently JavaScript/CoffeeScript/CSS/XQuery)
 * Cut, copy, and paste functionality
 
-Deploying to Stackato
----------------------
+Deploying to HPE Helion Stackato
+--------------------------------
 
-    $ git clone git://github.com/Stackato-Apps/ace.git
-    $ cd ace
     $ stackato push -n
 
 Embedding Ace
