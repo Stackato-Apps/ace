@@ -25,11 +25,9 @@ Features
 * Live syntax checker (currently JavaScript/CoffeeScript/CSS/XQuery)
 * Cut, copy, and paste functionality
 
-Deploying to Stackato
----------------------
+Deploying to HPE Helion Stackato
+--------------------------------
 
-    $ git clone git://github.com/Stackato-Apps/ace.git
-    $ cd ace
     $ stackato push -n
 
 Embedding Ace
@@ -79,7 +77,7 @@ By default the editor only supports plain text mode; many other languages are av
 The mode can then be used like this:
 
 ```javascript
-    var JavaScriptMode = require("ace/mode/javascript").Mode;
+    var JavaScriptMode = ace.require("ace/mode/javascript").Mode;
     editor.getSession().setMode(new JavaScriptMode());
 ```
 
