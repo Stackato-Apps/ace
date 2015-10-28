@@ -1,4 +1,4 @@
 applications:
 - name: ace
   docker_image: stackatoapps/ace:latest
-  mem: 128M
+  memory: 128M
