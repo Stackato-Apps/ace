@@ -1,7 +1,7 @@
 applications:
 - name: ace
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.2.1
-  mem: 128
+  memory: 128
   stackato:
     hooks:
       pre-staging:
