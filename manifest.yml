@@ -1,7 +1,8 @@
 applications:
 - name: ace
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.2.1
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.5.5
   memory: 128
+  stack: cflinuxfs2
   stackato:
     hooks:
       pre-staging:
