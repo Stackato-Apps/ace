@@ -1,10 +1,5 @@
 applications:
 - name: ace
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.2.1
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   memory: 128M
-  stackato:
-    hooks:
-      pre-staging:
-      - git submodule update --init
-    ignores:
-    - node_nodules
+  stack: cflinuxfs2

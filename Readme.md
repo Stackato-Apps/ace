@@ -28,6 +28,7 @@ Features
 Deploying to HPE Helion Stackato
 --------------------------------
 
+    $ git submodule update --init
     $ stackato push -n
 
 Embedding Ace
